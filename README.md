@@ -2,7 +2,9 @@
 
 https://github.com/udexon/symengine/blob/master/benchmarks/expandv.cpp
 
-<img src="https://github.com/udexon/symengine/tree/master/SymForth/SymForth_expandv.png" width=600>
+<img src="SymForth/SymForth_expandv.png" width=600>
+
+
 
 
 ```
