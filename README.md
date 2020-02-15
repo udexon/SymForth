@@ -1,4 +1,9 @@
-# SymEngine
+# SymForth: A Forth-like Interface for SymEngine
+
+
+Original README.md:
+
+https://github.com/symengine/symengine/blob/master/README.md
 
 [![Build Status](https://travis-ci.org/symengine/symengine.png?branch=master)](https://travis-ci.org/symengine/symengine)
 [![Build status](https://ci.appveyor.com/api/projects/status/qs1gvno1ht1gf0q8/branch/master?svg=true)](https://ci.appveyor.com/project/symengine/symengine/branch/master)
