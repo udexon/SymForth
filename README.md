@@ -2,6 +2,15 @@
 
 https://github.com/udexon/symengine/blob/master/benchmarks/expandv.cpp
 
+Input:
+```
+$ ./expandv x sym: y sym: add: 2 3 + pow: 3 5 +
+```
+Output:
+```
+Expanding r: 5*x*y**4 + 10*x**2*y**3 + 10*x**3*y**2 + 5*x**4*y + x**5 + y**5
+```
+
 <img src="SymForth/SymForth_expandv.png" width=600>
 
 
