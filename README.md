@@ -41,6 +41,8 @@ mystack TOS: 8
 
 Original README.md:
 
+# SymEngine
+
 https://github.com/symengine/symengine/blob/master/README.md
 
 [![Build Status](https://travis-ci.org/symengine/symengine.png?branch=master)](https://travis-ci.org/symengine/symengine)
