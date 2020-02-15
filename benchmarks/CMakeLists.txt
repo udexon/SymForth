@@ -5,6 +5,11 @@ include_directories(BEFORE ${symengine_BINARY_DIR})
 include_directories(BEFORE ${teuchos_SOURCE_DIR})
 include_directories(BEFORE ${teuchos_BINARY_DIR})
 
+
+add_executable(expandv expandv.cpp)
+target_link_libraries(expandv symengine)
+
+
 add_executable(expand1 expand1.cpp)
 target_link_libraries(expand1 symengine)
 
