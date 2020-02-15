@@ -18,7 +18,7 @@ Expanding r: 5*x*y**4 + 10*x**2*y**3 + 10*x**3*y**2 + 5*x**4*y + x**5 + y**5
 
 <img src="SymForth/SymForth_expandv.png" width=600>
 
-The most significant innovation in this project is the RCP stack, which allows SymEngine objects (RCP=Reference Counter Pointers) to be stored on stack and subsequently manipulated:
+The most significant innovation in this project is the RCP stack, which allows SymEngine objects (RCP=Reference Counted Pointers) to be stored on stack and subsequently manipulated:
 ```
 std::stack<SymEngine::RCP<const Basic>> RCP_S;
 ```
