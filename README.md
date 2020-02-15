@@ -28,6 +28,15 @@ From Forth perspective, this leads to "multitype stacks" where the input tokens 
 std::stack<std::string> mystack;
 ```
 
+As Forth RPN is perhaps the most lightweight (just a string in any programming language) and the most versatile (able to construct any programm structure), it can easily be embedded within any host programming language, e.g. Java, with minimal customization.
+
+The following is an example of Imgui+SymForth on Android, using C++ JNI NDK:
+
+https://github.com/symengine/symengine/issues/1638#issuecomment-586266311
+
+https://github.com/udexon/PhosCloudless/blob/master/Imgui_SymEngine_Android/Imgui_Symengine_6_ext.png
+
+
 Text output for copy/paste:
 
 ```
@@ -50,11 +59,11 @@ mystack TOS: 8
 ```
 
 
-Original README.md:
-
-# SymEngine
+Original SymEngine README.md:
 
 https://github.com/symengine/symengine/blob/master/README.md
+
+# SymEngine
 
 [![Build Status](https://travis-ci.org/symengine/symengine.png?branch=master)](https://travis-ci.org/symengine/symengine)
 [![Build status](https://ci.appveyor.com/api/projects/status/qs1gvno1ht1gf0q8/branch/master?svg=true)](https://ci.appveyor.com/project/symengine/symengine/branch/master)
