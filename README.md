@@ -2,6 +2,9 @@
 
 https://github.com/udexon/symengine/blob/master/benchmarks/expandv.cpp
 
+
+User may key in Forth like reverse polish notation at command line and obtain an expression from SymEngine.
+
 Input:
 ```
 $ ./expandv x sym: y sym: add: 2 3 + pow: 3 5 +
