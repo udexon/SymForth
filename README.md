@@ -2,6 +2,28 @@
 
 https://github.com/udexon/symengine/blob/master/benchmarks/expandv.cpp
 
+<img src="https://github.com/udexon/symengine/tree/master/SymForth/SymForth_expandv.png" width=600>
+
+
+```
+sm_string:   x sym: y sym: add: 2 3 + pow: 3 5 +
+sym: TOS x
+Expanding: x
+sym: TOS y
+Expanding: y
+In add: Expanding: x + y
++: 5 3 2 5
+In pow: 
+Expanding a: x + y
+Expanding: (x + y)**5
+0ms
+number of terms: 6
+Expanding r: 5*x*y**4 + 10*x**2*y**3 + 10*x**3*y**2 + 5*x**4*y + x**5 + y**5
++: 8 5 3 8
+mystack TOS: 8
+(base) hongwu@hongwu-Dell-System-XPS-15Z:~/devel/2020/symengine/symengine-master/Build/benchmarks$ ./expandv x sym: y sym: add: 2 3 + pow: 3 5 +
+```
+
 
 Original README.md:
 
