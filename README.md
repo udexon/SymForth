@@ -27,7 +27,7 @@ The most significant innovation in this project is the RCP stack, which allows S
 std::stack<SymEngine::RCP<const Basic>> RCP_S;
 ```
 
-From Forth perspective, this leads to "multitype stacks" where the input tokens and string output tokens are stored on a string stack (to be renamed `sm_S` or `sf_S` soon), while the code manages "one stack per type", a hopefully elegant solution for integrating Forth with modern type oriented programming languages:
+From Forth perspective, this leads to "multitype stacks" where the input tokens and string output tokens are stored on a string stack (renamed as `sm_S` [here](https://github.com/udexon/SymForth/blob/master/SymForth/SymForth.md)), while the code manages "one stack per type", a hopefully elegant solution for integrating Forth with modern type oriented programming languages:
 ```
 std::stack<std::string> mystack;
 ```
